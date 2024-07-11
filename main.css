@@ -1,0 +1,203 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.one{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.one {
+    @media(min-width: 1200px){
+        background-color: rgb(217, 231, 239);
+        width: 100%;
+        height: 100vh;
+
+    }
+}
+.two {
+    @media(min-width: 1200px){
+        background-color: white;
+        width: 100%;
+        height: 100vh;
+    }
+}
+.three {
+    @media(min-width: 1200px){
+        background-color:yellow;
+        width: 100%;
+        height: 110vh;
+    }
+}
+.two{
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+.diff{
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+}
+.three{
+    background-color:white;
+    width: 100%;
+    height:auto;
+}
+/* .col{
+    position: absolute;
+    background-color: rgb(217, 231, 239);
+    width: 60vw;
+    height: 90vh;
+    border-bottom-right-radius: 200px;
+    margin-right: 38.5vw;
+    margin-bottom: 59px;
+} */
+.body1{
+    @media (min-width: 1200px) {
+      margin-top: 8vw;
+      margin-left: 90px;
+      width: 410px;
+    }
+  }
+
+  .pic{
+    @media (min-width: 1200px){
+        margin-left: 100px;
+    margin-top: 40px;
+
+    }
+}
+
+.one2{
+    @media (min-width: 1200px){
+        position: absolute;
+    background-color: white;
+    width: 35vw;
+    margin-top: 10vw;
+    padding: 25px;
+
+
+    }
+   
+}
+.one2{
+    background-color: white;
+    padding: 5px;
+}
+.form {
+    @media (min-width: 1200px){
+    display: flex;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+}
+
+.cms {
+    display: flex;
+    gap: 175px;
+    padding-bottom: 15px;
+}
+
+input::placeholder {
+    color: blue;
+    text-align: right;
+    font-weight: bolder;
+}
+
+.result {
+    @media (min-width: 1200px){
+    width: 33vw;
+    background-color: rgb(51, 95, 246);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 5px;
+    color: white;
+    height: 7.5vw;
+    margin-bottom: 4px;
+  
+}
+}
+.result>h2 {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.means>h1 {
+    margin-bottom: 10px;
+}
+
+.means{
+    @media(min-width: 1200px){
+        width: 30vw;
+        height: auto;
+        margin-right: 10vw;
+        border-bottom: 15px solid rgb(232, 238, 244);
+        border-right: 15px solid rgb(232, 238, 244);
+
+    }
+}
+
+
+.race {
+    @media(min-width: 1200px){
+        width: 22vw;
+        
+    }
+}
+.preg {
+    @media(min-width: 1200px){
+        margin-left: 12vw;
+        width: 30vw;
+    }
+}
+.age{
+    border-bottom: 15px solid rgb(232, 238, 244);
+    border-right: 15px solid rgb(232, 238, 244);
+
+}
+.preg{
+    border-bottom: 15px solid rgb(232, 238, 244);
+    border-right: 15px solid rgb(232, 238, 244);
+}
+.gender{
+    border-bottom: 15px solid rgb(232, 238, 244);
+    border-right: 15px solid rgb(232, 238, 244);
+
+}
+.muscle{
+    border-bottom: 15px solid rgb(232, 238, 244);
+    border-right: 15px solid rgb(232, 238, 244);
+
+}
+.race{
+    border-bottom: 15px solid rgb(232, 238, 244);
+    border-right: 15px solid rgb(232, 238, 244);
+
+}
+.often{
+    @media(min-width: 1200px){
+        width: 35vw;
+        
+    }
+}
+.exercise{
+    border-bottom: 15px solid rgb(232, 238, 244);
+    border-right: 15px solid rgb(232, 238, 244);
+
+}
+.sleep{
+    border-bottom: 15px solid rgb(232, 238, 244);
+    border-right: 15px solid rgb(232, 238, 244);
+
+}
+.health{
+    border-bottom: 15px solid rgb(232, 238, 244);
+    border-right: 15px solid rgb(232, 238, 244);
+}
